@@ -21,5 +21,7 @@ GerenciadorGrafico::~GerenciadorGrafico()
 }
 void GerenciadorGrafico::desenharEnte(Ente* pE)
 {
-    // TODO: implementar quando a classe Ente existir, possivelmente suas herdeiras tambem (tem q ver isso ai)
+    /*TODO: como esta funcao vai funcionar e algo bem flexivel, pois o processo de desenhar um menu, uma fase
+    e uma entidade e bem diferente
+    */
 }
