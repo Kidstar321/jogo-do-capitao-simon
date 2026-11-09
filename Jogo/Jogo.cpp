@@ -17,12 +17,10 @@ void Jogo::executar()
             if(event.type == sf::Event::Closed)
                 GG.getWindow()->close();
         }
-
+        jogador.executar();
         GG.getWindow()->clear(sf::Color::Black);
-        sf::CircleShape circulo(50.f);
-        circulo.setFillColor(sf::Color::Green);
-        circulo.setPosition(375.f, 275.f);
-        GG.getWindow()->draw(circulo);
+
+        GG.getWindow()->draw(jogador.getCirculo());
 
         GG.getWindow()->display();
     }
