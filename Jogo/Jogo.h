@@ -5,7 +5,7 @@ class Jogo
 {
     private:
         GerenciadorGrafico GG;
-
+        Jogador jogador;
     public:
         Jogo();
         ~Jogo();
